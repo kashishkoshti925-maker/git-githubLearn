@@ -8,6 +8,7 @@ body{
     margin: 2em auto;
     /* display: flex; */
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .stripe{
@@ -25,3 +26,4 @@ body{
 .white{
     background-color: white;
 }
+

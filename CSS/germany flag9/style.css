@@ -1,0 +1,25 @@
+.flag-germany{
+    height: 150px;
+    width: calc(150px*5/3);
+    background-color: black;
+    margin: 30px auto;
+    display: flex;
+    flex-direction:column;
+
+}
+
+.stripe{
+    flex-grow:1;
+}
+
+.black{
+    background-color: black;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
