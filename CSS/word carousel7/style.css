@@ -1,0 +1,33 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1:after{
+    content: "";
+    animation: 6s swap infinite;
+    background-color: blue;
+    color: white;
+    border-radius: 4px ;
+    margin-left: 4px;
+}
+
+@keyframes swap{
+    0%{
+        content:    "Dancing"   ;
+    }
+    25%{
+        content: "Dogs🐕";
+    }
+    50%{
+        content: "Travel✈️";
+    }
+    75%{
+        content: "Singing🎤";
+    }
+     100%{
+        content: "Dancing";
+    }
+}

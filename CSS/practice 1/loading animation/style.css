@@ -1,0 +1,36 @@
+.square{
+    height: 1.5em;  
+    width:1.5em;    
+    margin: .5em;
+    animation: rotate infinite 1.5s;
+    transform: rotate(45deg)
+}
+
+.square1{
+    background-color: brown;
+}
+
+.square2{
+    background-color: burlywood;
+}
+
+.square3{
+    background-color:coral;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(-45deg);
+    }
+    to{
+        transform: rotate(45deg);
+    }
+}
+
