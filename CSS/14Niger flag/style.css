@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+
+.flag-niger{
+    background-color: white;
+    height:200px;
+    width: calc(200px*7/6);
+    margin:2em auto;
+    display: grid;
+
+}
+
+.orange{
+    background-color: orange;
+}
+
+.white{
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green{
+    background-color: green;
+}
+
+.circle{
+    background-color: orange;
+    height: calc(200px/ 3*.85);
+    width: calc(200px/ 3*.85);
+    border-radius: 50%;
+    position: absolute;
+}

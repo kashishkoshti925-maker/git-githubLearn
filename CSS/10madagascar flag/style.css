@@ -1,0 +1,28 @@
+html, body{
+    background-color: black;
+}
+
+.flag-madagascar{
+    height: 150px;
+    width: calc(150px*3/2);
+    background-color: white;
+    margin: 2em auto;
+    display: flex;
+}
+
+.white{
+    background-color: white;
+    width: calc(150px/2);
+}
+
+.red{
+    background-color: red;
+    height: calc(150px/2);
+    width: 150px;
+}
+
+.green
+{
+    background-color: green;
+    height: calc(150px/2);
+}

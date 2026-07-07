@@ -1,0 +1,23 @@
+html, body{
+    background-color: black;
+}
+
+
+.flag-japan
+{
+    height: 200px;
+    width: calc(200px*3/2);
+    background-color:white;
+    margin: 2em auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    height: calc(200px*3/5);
+    width:calc(200px*3/5);
+    background-color: red;
+    border-radius: 50%;
+
+}

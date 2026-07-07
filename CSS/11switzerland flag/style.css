@@ -1,0 +1,30 @@
+.flag-swiss{
+    height: 200px;
+    width: 200px ;
+    background-color: red;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+/* cross1 */
+.cross{ 
+    height: calc(200px*3/16);
+    width: calc(200px*5/8);
+    background-color: white;
+}
+
+.cross2{
+    position: absolute;
+    transform: rotate(90deg);
+}
+/* 
+.cross2{
+    width: calc(200px*3/16);
+    height: calc(200px*5/8);
+    background-color: white;
+    position: absolute;
+} */
+
+
