@@ -1,0 +1,33 @@
+.progress-bar{
+    background-color: lightgray;
+    height: 1.5em;
+    border-radius: 20px;
+    
+}
+
+.container{
+    width: 80%;
+    margin: 3em auto;
+}
+
+.progress-status{
+    width: 10%;
+    background-color: red;
+    animation: 6s linear showprogress infinite;
+}
+
+@keyframes showprogress{
+    50%{
+        width: 50%;
+        background-color: blue;
+    }
+    75%{
+        width: 100%;
+        background-color: green;
+    }
+    100%{
+        width: 100%;
+        background-color: green;
+    }
+
+}

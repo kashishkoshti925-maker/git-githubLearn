@@ -16,6 +16,7 @@
     margin: 2em;
 }
 
+
 .middle{
     display: grid;
     grid-template-columns:50% 50% ;
@@ -28,8 +29,8 @@
     transform: rotate(180deg);
 }
 
-.top > div:first,
-.bottom>div:first-child{
+.left > div:first,
+.right>div:first-child{
     padding-right:2px;}
 
 .middle :nth-child(3),

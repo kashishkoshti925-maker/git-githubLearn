@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    font-family: 'Karla', sans-serif;
+    color: white;
+}
+
+.stories-menu{
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    max-width: 320px;;
+    margin: 2em auto;
+}
+
+.img-wrapper{
+    height: 60px;
+    width: 60px;
+    padding: 4px;
+    background-color: lightgray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.new > .img-wrapper{
+    background: linear-gradient(to top right, #feda75, rgba(245, 96, 3, 0.933), #d62976, #962fbf, #4f5bd5);
+}
+
+.story{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.viewed > .img-wrapper{
+    background-color:lightgray;
+}
+
+.live:after{
+    content: "LIVE";
+    font-size: .5em;
+    font-weight: bold;
+    background-color: red;
+    border: 2px solid black;
+    width: 20px;
+    padding: 2px  4px;
+    position: absolute;
+    top: 50%;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
